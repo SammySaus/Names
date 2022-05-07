@@ -32,5 +32,10 @@ namespace Names
                 txtname.Clear();
             }
         }
+
+        private void ButtonRemoveNames_Click(object sender, RoutedEventArgs e)
+        {
+            lstNames.Items.Clear();
+        }
     }
 }
