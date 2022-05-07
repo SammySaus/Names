@@ -22,6 +22,8 @@
             <TextBox x:Name="txtname" />
             <Button x:Name="btnAdd" Margin="0,5,0,0" Click="ButtonAddName_Click">Add Name</Button>
             <Button x:Name="btnRemove" Margin="0,5,0,0" Click="ButtonRemoveNames_Click">Remove Names</Button>
+            <Button x:Name="btnChange" Margin="0,5,0,0" Click="ButtonChangeProperties_Click" Background="#FFF76666">Change Property</Button>
+            
         </StackPanel>
     </Grid>
 </Window>

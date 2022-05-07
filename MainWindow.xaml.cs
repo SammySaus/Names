@@ -37,5 +37,17 @@ namespace Names
         {
             lstNames.Items.Clear();
         }
+
+        private void ButtonChangeProperties_Click(object sender, RoutedEventArgs e)
+        {
+            var rand= new Random();
+            var bytes = new byte[3];
+            rand.NextBytes(bytes);
+
+
+            byte colourA = 0xFF;
+            
+            btnChange.Background = new SolidColorBrush(Color.FromArgb(colourA, bytes[0], bytes[1], bytes[2]));
+        }
     }
 }
